@@ -1,7 +1,7 @@
 :root {
     --logotipo: #f2f2f2;
     --profesion: #1a1a1a;
-    --primario: #ffc5b7; 
+    --primario: #FFCD48; 
 }
 
 *{
@@ -18,6 +18,9 @@ a {
     color: #fff;
     outline: none;
 }
+/* *===============================* */
+/* *========== MAIN ===============* */
+/* *===============================* */
 main {
 	width: 90%;
 	margin: auto;
@@ -28,7 +31,13 @@ main {
 	align-items: center;
 	justify-content: center;
 }
-
+main {
+    justify-content: left;
+    padding: 20px 0 0 0;
+}
+/* *===============================* */
+/* *========== ANIMACIÓN ==========* */
+/* *===============================* */
 .logotipo {
 	padding: 10px;
 	border: 5px solid var(--logotipo);
@@ -97,47 +106,151 @@ main {
 		font-size: 20px;
 	}
 }
-main {
-    justify-content: left;
-    padding: 20px 0 0 0;
-}
+/* *===============================* */
+/* *========== ESTRUCTURAS ========* */
+/* *===============================* */
+
 .contenido {
 	position: relative;
-    text-align: center;
-    font-family: monospace;
+    
+    font-family: 'Exo 2', sans-serif;
     font-size: 130%;
-	top: -60vh;
+	top: -18em;
 }
 .contenido p{
     padding: 10px;
     text-align: justify;
 }
 .box {
-    display: inline-block;
-    width: 400px;
-    min-height: 180px;
+    display: flex;
+	align-items: center;
+    width: 25em;
+    height: 11em;
     background: #1a1a1a;
     color: #f2f2f2;
   }
+
   #one {
     position: relative;
-    margin: 20px;
+    margin-left: auto;
+	margin-right: auto;
   }
   #two {
     position: relative;
-    margin: 20px;
+	margin-top: 1em;
+    margin-left: auto;
+	margin-right: auto;
   }
   #tree {
     position: relative;
-    margin: 20px;
+    margin-top: 1em;
+    margin-left: auto;
+	margin-right: auto;
   }
   #four {
 	position: relative;
-	margin: 20px;
-
+	margin-top: 1em;
+    margin-left: auto;
+	margin-right: auto;
   }
   #five {
 	position: relative;
-	margin: 20px;
-
+	margin-top: 1em;
+    margin-left: auto;
+	margin-right: auto;
   }
+  #six {
+	position: relative;
+	margin-top: 1em;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5em;
+}
+/* *===============================* */
+/* *========== BOTÓN NEÓN ========* */
+/* *===============================* */
+.btn-neon{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color:#fff;
+	letter-spacing: 4px;
+	font-size: 24px;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.btn-neon:hover{
+	background: #FFCD48;
+	box-shadow: 0 0 10px #FFCD48, 0 0 40px #FFCD48, 0 0 80px #FFCD48;
+	transition-delay: 1s;
+}
+.btn-neon span{
+	position: absolute;
+	display: block;
+}
+#span1{
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg,transparent,#FFCD48);	
+}
+.btn-neon:hover #span1{
+	left: 100%;
+	transition: 1s;
+}
+#span3{
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(270deg,transparent,#FFCD48);	
+}
+.btn-neon:hover #span3{
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.5s;
+}
+#span2{
+	top: -100%;
+	right: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(180deg,transparent,#FFCD48);	
+}
+.btn-neon:hover #span2{
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+#span4{
+	bottom: -100%;
+	left: 0;
+	width: 2px;
+	height: 100%;
+	background: linear-gradient(360deg,transparent,#FFCD48);	
+}
+.btn-neon:hover #span4{
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0.75s;
+}
+.btn-neon{
+	font-family: consolas;
+}
+#boton-centrado{
+	text-align: center;
+}
+#boton1 {
+	position: relative;
+	top: -400px;
+}
+#boton2 {
+	position: relative;
+	top: -390px;
+}
+#boton3 {
+	position: relative;
+	top: -380px;
+}
