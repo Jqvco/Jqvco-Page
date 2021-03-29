@@ -124,8 +124,8 @@ main {
 .box {
     display: flex;
 	align-items: center;
-    width: 25em;
-    height: 11em;
+    width: 22em;
+    height: 13em;
     background: #1a1a1a;
     color: #f2f2f2;
   }
