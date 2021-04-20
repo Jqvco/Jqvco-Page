@@ -1,7 +1,7 @@
 :root {
     --logotipo: #f2f2f2;
     --profesion: #1a1a1a;
-    --primario: #FFCD48; 
+    --primario: #b6d8f0; 
 }
 
 *{
@@ -166,6 +166,16 @@ main {
 	margin-right: auto;
 	margin-bottom: 5em;
 }
+
+.myphoto{
+	position: relative;
+	top: -58vh;
+	display: block;
+	width: 40vh;
+	margin: auto;
+	border: 1px solid #f2f2f2;
+	padding: 5px;
+}
 /* *===============================* */
 /* *========== BOTÓN NEÓN ========* */
 /* *===============================* */
@@ -181,8 +191,8 @@ main {
 	transition: 0.2s;
 }
 .btn-neon:hover{
-	background: #FFCD48;
-	box-shadow: 0 0 10px #FFCD48, 0 0 40px #FFCD48, 0 0 80px #FFCD48;
+	background: #2571eb;
+	box-shadow: 0 0 10px #2571eb, 0 0 40px #2571eb, 0 0 80px #2571eb;
 	transition-delay: 1s;
 }
 .btn-neon span{
@@ -194,7 +204,7 @@ main {
 	left: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(90deg,transparent,#FFCD48);	
+	background: linear-gradient(90deg,transparent,#2571eb);	
 }
 .btn-neon:hover #span1{
 	left: 100%;
@@ -205,7 +215,7 @@ main {
 	right: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(270deg,transparent,#FFCD48);	
+	background: linear-gradient(270deg,transparent,#2571eb);	
 }
 .btn-neon:hover #span3{
 	right: 100%;
@@ -217,7 +227,7 @@ main {
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg,transparent,#FFCD48);	
+	background: linear-gradient(180deg,transparent,#2571eb);	
 }
 .btn-neon:hover #span2{
 	top: 100%;
@@ -229,7 +239,7 @@ main {
 	left: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(360deg,transparent,#FFCD48);	
+	background: linear-gradient(360deg,transparent,#2571eb);	
 }
 .btn-neon:hover #span4{
 	bottom: 100%;
